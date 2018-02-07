@@ -1,0 +1,17 @@
+{
+    "name": "asmpkg/ofx",
+    "description": "Transforma em objetos dados de um arquivo de extrato bancario OFX.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Monte",
+            "email": "alexsmonte@gmail.com"
+        }
+    ],
+    "require": {"php": ">=5.3"},
+    "autoload": {
+        "psr-4": {
+            "Asmpkg\\Ofx\\": "src"
+        }
+    }
+}
